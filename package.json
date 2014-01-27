@@ -1,0 +1,37 @@
+{
+  "name": "contour-2d",
+  "version": "0.0.0",
+  "description": "Extracts the boundary of a binary 2D image",
+  "main": "contour.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "ndarray-pack": "~1.0.1",
+    "tape": "~2.3.2",
+    "tap": "~0.4.8"
+  },
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mikolalysenko/contour2d.git"
+  },
+  "keywords": [
+    "binary",
+    "polygon",
+    "boundary",
+    "image",
+    "ndarray",
+    "rectilinear"
+  ],
+  "author": "Mikola Lysenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikolalysenko/contour2d/issues"
+  },
+  "homepage": "https://github.com/mikolalysenko/contour2d"
+}
